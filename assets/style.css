@@ -1,0 +1,49 @@
+nav{
+    background-color: black !important; 
+}
+
+#nav-links li a{
+    color: white !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#product-heading{
+   
+  
+   text-decoration: wavy;
+    margin: auto;
+   
+    color: rgb(0, 0, 0);
+    padding: 16px;
+}
+
+
+#about-links ul li{
+    list-style-type: none;
+}
+
+#about-links ul li i{
+    color: #5758BB;
+    margin-right: 5px;
+}
+
+#serv1{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: auto;
+}
+
+
+#formBtn{
+    background-color: rgb(1, 150, 4);
+}
+
+
+@media screen and (max-width: 996px)
+{
+    .active{
+        background-color: transparent;
+    }
+}
